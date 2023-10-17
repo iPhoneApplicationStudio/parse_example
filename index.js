@@ -7,6 +7,7 @@ import path from 'path';
 const __dirname = path.resolve();
 import http from 'http';
 import dotenv from 'dotenv';
+import fetch from 'node-fetch';
 
 dotenv.config();
 
